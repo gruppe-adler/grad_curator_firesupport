@@ -10,7 +10,7 @@ class CfgPatches
 		requiredVersion=0.1;
 		units[]=
 		{
-			"grad_test"
+			"Tomahawk"
 		};
 		weapons[]={};
 	};
@@ -23,24 +23,24 @@ class CfgVehicles
 	{
     category="grad_curator_firesupport";
 	};
-	class grad_test: ModuleOrdnanceMortar_F
+	class Tomahawk: ModuleOrdnanceMortar_F
 	{
     author="Eras";
-    _generalMacro="grad_test";
+    _generalMacro="Tomahawk";
     category="grad_curator_firesupport";
-    displayName="Test Modul";
+    displayName="Tomahawk";
     portrait="\a3\Modules_F_Curator\Data\portraitOrdnanceRocket_ca.paa";
     ammo="ammo_Missile_Cruise_01";
     model="\a3\Modules_F_Curator\Ordnance\surfaceRocket.p3d";
     curatorCost=9;
-    function = "eras_fnc_grad_curator_firesupport";
+    function = "eras_fnc_tomahawk";
 	};
 };
 class PreloadTextures
 {
 	class CfgVehicles
 	{
-		class grad_test
+		class Tomahawk
 		{
 			model="@*";
 		};
