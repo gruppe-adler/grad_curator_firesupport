@@ -1,3 +1,5 @@
+#include "cfgFunctions.hpp"
+
 class CfgPatches
 {
 	class grad_curator_firesupport
@@ -19,10 +21,6 @@ class CfgVehicles
 {
   class ModuleOrdnanceMortar_F;
 
-  class ModuleOrdnanceHowitzer_F: ModuleOrdnanceMortar_F
-	{
-    category="grad_curator_firesupport";
-	};
 	class Tomahawk: ModuleOrdnanceMortar_F
 	{
     author="Eras";
@@ -33,7 +31,7 @@ class CfgVehicles
     ammo="ammo_Missile_Cruise_01";
     model="\a3\Modules_F_Curator\Ordnance\surfaceRocket.p3d";
     curatorCost=9;
-    function = "eras_fnc_tomahawk";
+    function = "eras_fnc_module";
 	};
 };
 class PreloadTextures
@@ -46,6 +44,7 @@ class PreloadTextures
 		};
 	};
 };
+
 class CfgFactionClasses
 {
 	class grad_curator_firesupport

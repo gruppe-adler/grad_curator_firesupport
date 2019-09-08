@@ -1,4 +1,4 @@
-diag_log "eras_fnc_tomahawk"
+diag_log "eras_fnc_module"
 params ["_logic","_units","_activated"];
 
 if ({local _x} count (objectcurators _logic) > 0) then {
@@ -13,13 +13,13 @@ if (_activated) then {
 	if !(_ammo isEqualTo "") then {
 
 		private _altitude = 2000;
-		private _pitch = 45;
+		private _pitch = 160;
 
 		private _posAmmo = +(getposatl _logic);
 		private _dir = direction _logic;
 		private _distance = _altitude * (tan (_pitch)) - 45 * (_altitude / 1000);
 
-		_posAmmo = _posAmmo getPos [_distance, _dir + 180];
+		_posAmmo = _posAmmo getPos [_distance, _dir + 45];
 		_posAmmo set [2,_altitude];
 			
 		//--- Create projectile
