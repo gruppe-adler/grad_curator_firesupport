@@ -33,6 +33,7 @@ class CfgVehicles
     ammo="ammo_Missile_Cruise_01";
     model="\a3\Modules_F_Curator\Ordnance\surfaceRocket.p3d";
     curatorCost=9;
+    function = "eras_fnc_fn_grad_curator_firesupport";
 	};
 };
 class PreloadTextures
