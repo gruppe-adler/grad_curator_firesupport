@@ -31,14 +31,14 @@ class CfgVehicles
     ammo="ammo_Missile_Cruise_01";
     model="\a3\Modules_F_Curator\Ordnance\surfaceRocket.p3d";
     curatorCost=9;
-    function = "eras_fnc_module";
+    function = "grad_curator_firesupport_fnc_tomahawk";
 	};
 };
 class PreloadTextures
 {
 	class CfgVehicles
 	{
-		class Tomahawk
+		class grad_curator_firesupport_tomahawk
 		{
 			model="@*";
 		};
