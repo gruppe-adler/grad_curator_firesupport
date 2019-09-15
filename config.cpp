@@ -25,7 +25,7 @@ class CfgVehicles
 	{
     author="Eras";
     _generalMacro="Tomahawk";
-    category="grad_curator_firesupport";
+    category="Ordnance";
     displayName="Tomahawk";
     portrait="\a3\Modules_F_Curator\Data\portraitOrdnanceRocket_ca.paa";
     ammo="ammo_Missile_Cruise_01";
@@ -42,15 +42,5 @@ class PreloadTextures
 		{
 			model="@*";
 		};
-	};
-};
-
-class CfgFactionClasses
-{
-	class grad_curator_firesupport
-  {
-		displayName = "Gruppe Adler";
-		priority = 2;
-		side = 7;
 	};
 };
