@@ -12,7 +12,7 @@ class CfgPatches
 		requiredVersion=0.1;
 		units[]=
 		{
-			"Tomahawk"
+			"grad_curator_firesupport_tomahawk"
 		};
 		weapons[]={};
 	};
@@ -21,7 +21,7 @@ class CfgVehicles
 {
   class ModuleOrdnanceMortar_F;
 
-	class Tomahawk: ModuleOrdnanceMortar_F
+	class grad_curator_firesupport_tomahawk: ModuleOrdnanceMortar_F
 	{
     author="Eras";
     _generalMacro="Tomahawk";

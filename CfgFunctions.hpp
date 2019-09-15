@@ -1,12 +1,12 @@
 class CfgFunctions
 {
-	class fn_grad_curator_firesupport
+	class grad_curator_firesupport
 	{
-		tag = "eras";
-		class tomahawk
+		tag = "grad_curator_firesupport";
+		class functions
 		{
 			file = "\grad_curator_firesupport\functions";
-			class module {};
+			class tomahawk {};
 		};
 	};
 };	
